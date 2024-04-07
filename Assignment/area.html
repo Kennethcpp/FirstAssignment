@@ -1,0 +1,36 @@
+
+<DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CalculateArea</title>
+
+</head>
+
+<body>
+<script>
+
+
+function calculateArea(){
+	var length = prompt("Enter the length of the rectangle");
+	var width = prompt("Enter the width of the rectangle");
+	
+	//converting the input string to numbers
+	length = parseFloat(length);
+	width = parseFloat(width);
+	
+	//here we calculate the Area 
+	var area = length * width;
+	return area;
+}
+//to calculate the area
+ var area = calculateArea();
+ 
+
+ //to output the calculated area,
+ document.write("The area of the rectangle is: " + area);
+	
+ </script>
+ </body>
